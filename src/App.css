@@ -1,0 +1,173 @@
+.cApp {
+  text-align: center;
+  width: 260px;
+
+  margin-top: 100px;
+
+  border: 3px solid coral;
+  padding: 10px;
+  background-color: #000;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.keypad {
+  display: grid;
+  padding: 1%;
+  grid-template-columns: repeat(4, 1fr);
+
+  justify-content: space-evenly;
+  grid-auto-rows: minmax(60px, auto);
+  background-color: black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  font-size: 25px;
+}
+input[type="text"] {
+  height: 50px;
+  width: 230px;
+  background-color: #000;
+  border: none;
+  border-bottom: 2px solid coral;
+  color: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+input:hover {
+  background-color: #333;
+}
+input:focus {
+  outline: none;
+  background-color: #333;
+}
+#b {
+  background-color: crimson;
+  border-radius: 100%;
+  margin: 4%;
+}
+#clear {
+  color: #fff;
+  border-radius: 100%;
+  margin: 4%;
+  background-color: coral;
+}
+#result {
+  grid-column: 3/5;
+  grid-row: 5;
+  color: coral;
+}
+#b:hover {
+  background-color: coral;
+}
+#result:hover {
+  background-color: #333;
+  color: #fff;
+}
+#clear:hover {
+  background-color: #333;
+  color: #fff;
+}
+button {
+  background-color: black;
+  color: #fff;
+  border: none;
+  font-size: 24px;
+}
+button:hover {
+  background-color: rgb(73, 72, 72);
+  color: #fff;
+}
+#o {
+  background-color: dodgerblue;
+  border-radius: 100%;
+  margin: 4%;
+}
+#o:hover {
+  color: dodgerblue;
+  background-color: #333;
+  border-radius: 100%;
+  margin: 4%;
+}
+
+#do1 {
+  grid-column: 1/5;
+  grid-row: 6;
+  text-decoration: none;
+  color: rgb(18, 233, 36);
+  font-weight: 600;
+  font-size: 20px;
+}
+.m {
+  background-color: #fff8f8;
+}
+/* Steps */
+.step {
+  list-style: none;
+  margin: 0;
+}
+
+.step-element {
+  display: flex;
+  padding: 1rem 0;
+}
+
+.step-number {
+  position: relative;
+  width: 7rem;
+  flex-shrink: 0;
+  text-align: center;
+}
+
+.step-number .number {
+  color: #bfc5ca;
+  background-color: #eaeff4;
+  font-size: 1.5rem;
+}
+
+.step-number .number {
+  width: 48px;
+  height: 48px;
+  line-height: 48px;
+}
+
+.number {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 38px;
+  border-radius: 10rem;
+}
+
+.step-number::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 48px;
+  bottom: -2rem;
+  margin-left: -1px;
+  border-left: 2px dashed #eaeff4;
+}
+
+.step .step-element:last-child .step-number::before {
+  bottom: 1rem;
+}
