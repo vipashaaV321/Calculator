@@ -1,6 +1,19 @@
 ## Calculator
 ## Features
 <br/>
+Addition
+<br/>
+Subtraction 
+<br/>
+Multiplication
+<br/>
+Division
+<br/>
+Reminder
+<br/>
+Power
+<br/>
+You can perform following tasks through this Calculator
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
