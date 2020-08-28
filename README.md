@@ -1,17 +1,17 @@
 ## Calculator
 ## Features
 <br/>
-Addition
+Addition : +
 <br/>
-Subtraction 
+Subtraction : -
 <br/>
-Multiplication
+Multiplication : *
 <br/>
-Division
+Division : /
 <br/>
-Reminder
+Reminder : %
 <br/>
-Power
+Power : x^y=x**'y
 <br/>
 You can perform following tasks through this Calculator
 
