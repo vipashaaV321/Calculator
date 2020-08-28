@@ -1,5 +1,5 @@
 ## Calculator
-![output](https://github.com/vipashaaV321/What-is-The-Weather/blob/master/calc.jpg)
+![output](https://github.com/vipashaaV321/Calculator/blob/master/calc.jpg)
 ## Features
 <br/>
 Addition : +
